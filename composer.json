@@ -1,0 +1,25 @@
+{
+    "name": "arunarw/basic-maths",
+    "description": "Basic mathematical operations with tests",
+    "type": "library",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ArunaRW\\BasicMaths\\": "src/",
+            "ArunaRW\\BasicMaths\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aruna Warnasooriya",
+            "email": "arunarw@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
